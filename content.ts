@@ -8,7 +8,7 @@ export const profile = {
   tagline:
     "Computer Science graduate (Data Analytics major) who turns messy public data into findings people can act on.",
   intro:
-    "I graduated from Universiti Teknologi PETRONAS with a CGPA of 3.92 and Dean's List every semester. I like work that starts with a real question: how Klang Valley commuters actually move, or how scammers target Malaysians on social media. I build the pipeline, test it, and explain what the numbers mean.",
+    "I graduated from Universiti Teknologi PETRONAS with a CGPA of 3.92 and Dean's List every semester. I like work that starts with a real question: how Klang Valley commuters actually move, where food prices are rising fastest, or how scammers target Malaysians on social media. I build the pipeline, test it, and explain what the numbers mean.",
   email: "norafidahkamarulzaman03@gmail.com",
   linkedin: "https://www.linkedin.com/in/norafidah-kamarulzaman",
   github: "https://github.com/norafidah03",
@@ -34,6 +34,24 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "PricePulse MY: Malaysia Food Price Intelligence",
+    kind: "Personal project · 2026",
+    featured: true,
+    summary:
+      "Where are grocery prices rising fastest, and what is driving it? A matched-sample food price index for every state, built from 14 million KPDN PriceCatcher prices (data.gov.my) and checked against DOSM's official CPI.",
+    highlights: [
+      "Observed grocery prices are 9.7% above January 2022; Kedah is rising fastest (+2.3% on a year ago) while Sabah fell.",
+      "Tracks DOSM's official food CPI closely: correlation 0.92, average gap 0.5 percentage points.",
+      "My Grocery Basket calculator: visitors pick items and quantities and compare the cost in two states.",
+      "Of four policy changes, only the end of the egg subsidy clearly moved prices (+18.6% in 3 months).",
+    ],
+    tags: ["Python", "DuckDB", "pandas", "Plotly", "Streamlit", "pytest"],
+    links: [
+      // TODO: add { label: "Live dashboard", href: "https://<your-app>.streamlit.app/" } once it is deployed
+      { label: "Code", href: "https://github.com/norafidah03/pricepulse-my" },
+    ],
+  },
   {
     title: "Transit Insight: Klang Valley Mobility Analytics",
     kind: "Personal project · 2026",
