@@ -48,7 +48,7 @@ export const projects: Project[] = [
     ],
     tags: ["Python", "DuckDB", "pandas", "Plotly", "Streamlit", "pytest"],
     links: [
-      { label: "Live dashboard", href: "https://pricepulse-my-ck5moh8rzyijjgesze2rp9.streamlit.app/" }
+      { label: "Live dashboard", href: "https://pricepulse-my-ck5moh8rzyijjgesze2rp9.streamlit.app/" },
       { label: "Code", href: "https://github.com/norafidah03/pricepulse-my" },
     ],
   },
