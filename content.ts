@@ -81,6 +81,16 @@ export const projects: Project[] = [
 
 export const experience = [
   {
+    role: "Software Engineer Trainee",
+    org: "MTechnix Sdn. Bhd.",
+    team: "Software Department · K-Youth Development Programme 2026",
+    period: "Aug 2026 to Present",
+    points: [
+      "Applied emerging technologies to develop a multi-lingual AI call agent, integrating APIs and managing data ingestion pipelines to support advanced analytical models.",
+      "Supported the project team in building a full-stack web application for an operational technology (OT) cybersecurity risk register, ensuring data quality and practical business solutions.",
+    ],
+  },
+  {
     role: "Software Development Support Intern",
     org: "Verity Intelligence Sdn. Bhd.",
     team: "Technology Department, Database Division",
