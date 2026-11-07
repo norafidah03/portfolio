@@ -48,7 +48,7 @@ export const projects: Project[] = [
     ],
     tags: ["Python", "DuckDB", "pandas", "Plotly", "Streamlit", "pytest"],
     links: [
-      // TODO: add { label: "Live dashboard", href: "https://<your-app>.streamlit.app/" } once it is deployed
+      { label: "Live dashboard", href: "https://pricepulse-my-ck5moh8rzyijjgesze2rp9.streamlit.app/" }
       { label: "Code", href: "https://github.com/norafidah03/pricepulse-my" },
     ],
   },
